@@ -438,7 +438,7 @@ joblib.dump(SVM, ".\\models\\SVM.m")
 ``` 
 
 #### (f) Tensorflow
-We build a Tensorflow model with only four features combinations of cols5. 
+We build a Tensorflow model with the four features of cols5. 
 ```python
 import tensorflow as tf
 from tensorflow import keras

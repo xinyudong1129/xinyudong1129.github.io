@@ -173,7 +173,7 @@ cols5 = ['area_worst','area_mean','concave.points_mean','concave.points_worst']
 cols6 = ['area_mean','concave.points_mean']
 cols =[cols0,cols1,cols2,cols3,cols4,cols5,cols6]
 ```
-### (2) Two General Functions
+### (2) Two Functions
 
 - plot_confusionmatrix：plots the confusion matrix of a model.
 

@@ -773,9 +773,9 @@ def Models():
     return render_template('Models.html')
 
 # The function gives us the diagnosis page of the Webapp.
-# Call the template diagnosis.html and fetch the data we inputted and store
+# Call the template diagnosis.html and retrieve the data we inputted and store
 # them to g.text1,g.text2,g.text3 and g.text4, they are area_worst,area_mean,
-# concave.points_mean and concave.points_worst. then we fetch the type of the
+# concave.points_mean and concave.points_worst. then we retrieve the type of the
 # models we selected and retrieve the models which has been trained and saved 
 # from models.ipynb, finally predict the prediction of the breast cancer is 
 # benign or malignant.

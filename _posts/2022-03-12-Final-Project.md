@@ -132,7 +132,7 @@ It is clear that the mean and maximum values of the radius, perimeter, area, con
 ## 2. Model training and comparison
 
 ### (1) Data Preparation
-Firstly, We split the dataset into the test data set and the train data set. The train data set takes up 70% of the entire data, and the test data set takes up the rest 30%.
+Firstly, We split the dataset into the test dataset and the train dataset. The train dataset takes up 70% of the entire data, and the test dataset takes up the rest 30%.
 ```python
 dataset = pd.concat([y,X],axis=1)
 train,test=train_test_split(dataset,test_size=.3,random_state=42)

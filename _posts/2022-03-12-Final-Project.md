@@ -705,7 +705,7 @@ plt.suptitle("The comparison of 6 Models")
 
 - For cols5 we chose the features the area_mean,area_worst,concave.points_mean and concave.points_worst. The area of the cell and the number of its concave points have no direct correlations with each other, and they are vastly different in terms of their order of magnitude. However, after standardization, this set of features achieved very high accuracy in both testing and training. In our experiment we can see that this set of features achieved the second or third highest in accuracy using most of our machine learning models.
 
-- Cols2 chose all the mean features in cols1 but gave up on all the worst features. Cols6 only chose 2 features. Compared to other column combinations, their results are a bit lower in accuracy.
+- Cols2 chose all the mean features in cols1 but diacarded all the worst features. Cols6 only chose 2 features. Compared to other column combinations, their results are a bit lower in accuracy.
 
 - In these six distinct machine learning algorithms, we can get the tensorflow has the highest accuracy overall, with an accuracy of 97.66% with cols0, and an accuracy of 97.07% on cols5.
 

@@ -699,7 +699,7 @@ plt.suptitle("The comparison of 6 Models")
 ![compare.jpg]({{ site.baseurl }}/images/compare.png)
 
 ### My Oberservations:
-- We can observe from the plot that the set that contains all features has the highest accuracy in training and testing. The testing accuracy, 98.6%, is the highest using the logistic regression model for this set. cols1 used the 10 best features we selected using SelectKBest, and the testing accuracy is 97.06% using tensorflow. We chose 6 distinct features from cols1 to form cols3, which also has a high testing accuracy.
+- We can observe from the plot that the set containing all features has the highest accuracy in training and testing. The testing accuracy, 98.6%, is the highest using the logistic regression model for this set. cols1 used the 10 best features we selected using SelectKBest, and the testing accuracy is 97.06% using tensorflow. We chose 6 distinct features from cols1 to form cols3, which also has a high testing accuracy.
 
 - Cols4 is a subset of the set of the 10 best features we selected using SelectKBest which consists of the features perimeter_mean, perimeter_worst,area_mean and area_worst. From what we analyzed before we know that the perimeter and the area of a cell has high correlations with each other, so the testing accuracy of cols4 is a bit low, but its testing accuracy is very high. 
 
